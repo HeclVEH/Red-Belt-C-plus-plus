@@ -127,9 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="logger.cpp" />
+    <ClCompile Include="airline_ticket.cpp" />
+    <ClCompile Include="sort_by.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="airline_ticket.h" />
     <ClInclude Include="test_runner.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

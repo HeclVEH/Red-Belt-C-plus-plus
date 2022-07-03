@@ -21,3 +21,11 @@ struct AirlineTicket {
   Time arrival_time;
   int price;
 };
+
+ostream& operator<<(ostream& os, const Date& date);
+bool operator<(const Date& d1, const Date& d2);
+bool operator==(const Date& d1, const Date& d2);
+bool operator!=(const Date& d1, const Date& d2);
+bool operator<=(const Date& d1, const Date& d2);
+bool operator>(const Date& d1, const Date& d2);
+bool operator>=(const Date& d1, const Date& d2);
