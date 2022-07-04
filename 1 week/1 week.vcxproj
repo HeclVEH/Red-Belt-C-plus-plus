@@ -128,7 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="airline_ticket.cpp" />
-    <ClCompile Include="sort_by.cpp" />
+    <ClCompile Include="update_field.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="airline_ticket.h" />

@@ -23,9 +23,19 @@ struct AirlineTicket {
 };
 
 ostream& operator<<(ostream& os, const Date& date);
+istream& operator>>(istream& is, Date& date);
 bool operator<(const Date& d1, const Date& d2);
 bool operator==(const Date& d1, const Date& d2);
 bool operator!=(const Date& d1, const Date& d2);
 bool operator<=(const Date& d1, const Date& d2);
 bool operator>(const Date& d1, const Date& d2);
 bool operator>=(const Date& d1, const Date& d2);
+
+ostream& operator<<(ostream& os, const Time& time);
+istream& operator>>(istream& is, Time& time);
+bool operator<(const Time& t1, const Time& t2);
+bool operator==(const Time& t1, const Time& t2);
+bool operator!=(const Time& t1, const Time& t2);
+bool operator<=(const Time& t1, const Time& t2);
+bool operator>(const Time& t1, const Time& t2);
+bool operator>=(const Time& t1, const Time& t2);
