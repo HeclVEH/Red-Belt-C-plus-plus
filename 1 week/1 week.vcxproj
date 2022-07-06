@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -127,12 +128,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="airline_ticket.cpp" />
-    <ClCompile Include="update_field.cpp" />
+    <ClInclude Include="test_runner.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="airline_ticket.h" />
-    <ClInclude Include="test_runner.h" />
+    <ClCompile Include="uniq_id.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
