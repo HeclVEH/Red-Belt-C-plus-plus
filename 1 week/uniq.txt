@@ -19226,9 +19226,10 @@ using namespace std;
 
 
 
+
 int main() {
-  int 9 = 0;
-  string 10 = "hello";
-  vector<string> 11 = {"hello", "world"};
-  vector<int> 12 = {1, 2, 3, 4};
+ int unique_name_10 = 0;
+ string unique_name_11 = "hello";
+ vector<string> unique_name_12 = { "hello", "world" };
+ vector<int> unique_name_13 = { 1, 2, 3, 4 };
 }
