@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="6_table.cpp">
+    <ClCompile Include="LK_4_auto_out_types.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
