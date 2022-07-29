@@ -23,7 +23,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LK_1_log(N).cpp">
+    <ClCompile Include="2_slow.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
