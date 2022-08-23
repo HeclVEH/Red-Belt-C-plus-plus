@@ -11,8 +11,10 @@ public:
         Node* next = nullptr;       
     };
 
-    ~LinkedList() {        
-        delete head;
+    ~LinkedList() {   
+        while (head) {
+            PopFront();
+        }        
     }
 
     void PushFront(const T& value) {
