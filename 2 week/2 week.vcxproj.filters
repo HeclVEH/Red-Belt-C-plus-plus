@@ -21,9 +21,12 @@
     <ClInclude Include="test_runner.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="1_student.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2_slow.cpp">
+    <ClCompile Include="1_sort_students.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
